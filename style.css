@@ -1,0 +1,60 @@
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+    
+    
+  }
+  
+  .ul-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+  
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    
+  }
+  .ul-item:hover{
+    background-color: aqua;
+  }
+  #filmInfo{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .image-item{
+    height: 600px;
+    width: 1000px;
+    justify-content: end;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.left-div {
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.right-div {
+    flex: 1;
+    padding: 10px;
+    
+}
