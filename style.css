@@ -1,4 +1,4 @@
-
+/*film list styling*/
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@ ul {
     
     
   }
-  
+  /*film list item styling*/
   .ul-item {
     background-color: #f9f9f9;
     padding: 10px;
@@ -29,6 +29,7 @@ ul {
     align-items: flex-end;
     flex-direction: column;
   }
+  /*styling the film poster*/
   .image-item{
     height: 600px;
     width: 1000px;
@@ -40,19 +41,19 @@ ul {
     padding: 0;
     background-color: beige;
 }
-
+/*displays the film list on the left and film details on the right*/
 .container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
-
+/*film list styling*/
 .left-div {
     flex: 1;
     padding: 10px;
     
 }
-
+/*film details display on the right*/
 .right-div {
     flex: 1;
     padding: 10px;
